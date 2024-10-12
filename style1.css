@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  
+  }
+  .item1{
+    grid-column: 1 / span 2
+  }
+
+
+  
+  .grid-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
